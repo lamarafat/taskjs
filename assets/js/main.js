@@ -81,7 +81,7 @@
       if(page == numberOfPages){
         pagenationLinks += `<li class="page-item"><button class="page-link" >&raquo;</button></li>`;
        }else{
-        pagenationLinks += `<li class="page-item"><button onclick = displayProducts('${parseInt(page+1)}') class="page-link">&raquo;</button></li>`;
+        pagenationLinks += `<li class="page-item"><button onclick="displayProducts(${page + 1})" class="page-link">&raquo;</button></li>`;
        }
       
 
